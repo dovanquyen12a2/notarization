@@ -1,0 +1,13 @@
+snowflake.nodeid: 1
+
+# OracleDB connection settings
+spring:
+  datasource:
+    platform: oracle
+    url: "jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orclpdb)))"
+    username: APPLUUDONG
+    password: 123456
+    driver-class-name: oracle.jdbc.OracleDriver
+    host: localhost
+    port: 1521
+    database: orclpdb
